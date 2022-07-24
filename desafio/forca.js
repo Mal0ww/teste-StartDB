@@ -16,7 +16,7 @@ class Forca{
 
   chutar(palpite)
   {
-    var letra = palpite.toLowerCase();  //para evitar perde vidas por letras maisculas, mas corretas
+    var letra = palpite.toLowerCase();  //para evitar perde vidas por letras maisculas, mas corretas,
                                         //ja que a comparacao e case sensitive
     if((!this.palavra.includes(letra)) && letra.length == 1 && (!this.letrasChutadas.includes(letra)))
     {
