@@ -34,7 +34,7 @@ class Forca{
     }
   }
 
-  buscarEstado() { 
+  buscarEstado() {  
     if(this.vidas == 0){
       return "perdeu";
     }
